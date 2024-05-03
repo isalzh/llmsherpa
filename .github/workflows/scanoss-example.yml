@@ -29,3 +29,5 @@ jobs:
         with:
           policies: copyleft, undeclared
           dependencies.enabled: true
+          api-url: ${{ secrets.SCANOSS_API_URL }}
+          api-key: ${{ secrets.SCANOSS_API_KEY }}
