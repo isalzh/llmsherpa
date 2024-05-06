@@ -27,7 +27,7 @@ jobs:
         id: scan
         uses: scanoss/actions-scan@v0
         with:
-          policies: copyleft, undeclared
+          # policies: copyleft, undeclared
           dependencies.enabled: false
           api.url: https://api.scanoss.com/scan/direct
           api.key: ${{ secrets.SCANOSS_API_KEY }}
