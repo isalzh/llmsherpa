@@ -23,9 +23,9 @@ jobs:
         id: checkout
         uses: actions/checkout@v4
 
-      - name: Run SCANOSS analysis 
-        id: scan
-        uses: scanoss/actions-scan@v0
+      - name: Run SCANOSS Code Scan
+        id: scanoss-code-scan-step
+        uses: scanoss/code-scan-action@v0
         with:
           # policies: copyleft, undeclared
           dependencies.enabled: false
