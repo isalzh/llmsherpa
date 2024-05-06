@@ -23,7 +23,7 @@ jobs:
         id: checkout
         uses: actions/checkout@v4
 
-      - name: Run SCANOSS Code Scan
+      - name: Run SCANOSS Code Scan 1
         id: scanoss-code-scan-step
         uses: scanoss/code-scan-action@v0
         with:
